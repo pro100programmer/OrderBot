@@ -465,7 +465,8 @@ def main() -> None:
     global registration_state, security, markup, conv_handler2, keybrd_state, reg_2
     """Run the bot."""
     # Create the Updater and pass it your bot's token.
-    updater = Updater("1760508363:AAG9wpxa-B3JsNcQtQ1kolqClERXxn099MU")
+    updater = Updater("
+                 ")
     reg_1 = db.get_ids()
 
     # Get the dispatcher to register handlers
